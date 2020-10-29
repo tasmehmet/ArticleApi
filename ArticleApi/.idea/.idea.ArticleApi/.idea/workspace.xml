@@ -20,34 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91f4b0bc-e55a-40fe-92b7-969127cb126d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.ArticleApi/.idea/contentModel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArticleApi.Business/ArticleApi.Business.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArticleApi.Business/Class1.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArticleApi.Comman/ArticleApi.Comman.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArticleApi.Comman/Class1.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArticleApi.Data/ArticleApi.Data.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArticleApi.Data/Class1.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArticleApi.DataAccess/ArticleApi.DataAccess.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArticleApi.DataAccess/Class1.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArticleApi.Dto/ArticleApi.Dto.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArticleApi.Dto/Class1.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArticleApi.Entity/ArticleApi.Entity.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArticleApi.Entity/Class1.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArticleApi.Ioc/ArticleApi.Ioc.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArticleApi.Ioc/Class1.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArticleApi.Repository/ArticleApi.Repository.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArticleApi.Repository/Class1.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArticleApi.UnitOfWork/ArticleApi.UnitOfWork.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArticleApi.UnitOfWork/Class1.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ArticleApi.sln" beforeDir="false" afterPath="$PROJECT_DIR$/ArticleApi.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ArticleApi/ArticleApi.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ArticleApi.Api/ArticleApi.Api.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ArticleApi/Controllers/WeatherForecastController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ArticleApi.Api/Controllers/WeatherForecastController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ArticleApi/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ArticleApi.Api/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ArticleApi/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ArticleApi.Api/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ArticleApi/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ArticleApi.Api/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ArticleApi/WeatherForecast.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ArticleApi.Api/WeatherForecast.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ArticleApi/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/ArticleApi.Api/appsettings.Development.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ArticleApi/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ArticleApi.Api/appsettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ArticleApi.Data/ArticleApiContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ArticleApi.Entity/ArticleEntity.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ArticleApi.Repository/ArticleApiRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ArticleApi.Repository/BaseRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ArticleApi.Repository/IRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ArticleApi.UnitOfWork/ArticleApiUow.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ArticleApi.UnitOfWork/IUnitOfWork.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ArticleApi/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ArticleApi/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ArticleApi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ArticleApi/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArticleApi.Data/ArticleApi.Data.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ArticleApi.Data/ArticleApi.Data.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArticleApi.Repository/ArticleApi.Repository.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ArticleApi.Repository/ArticleApi.Repository.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArticleApi.UnitOfWork/ArticleApi.UnitOfWork.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ArticleApi.UnitOfWork/ArticleApi.UnitOfWork.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,15 +42,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/ArticleApi.Dto/Class1.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ArticleApi.DataAccess/Class1.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ArticleApi.Repository/Class1.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ArticleApi.Comman/Class1.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ArticleApi.Business/Class1.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ArticleApi.UnitOfWork/Class1.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ArticleApi.Ioc/Class1.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ArticleApi.Entity/Class1.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ArticleApi.Data/Class1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ArticleApi.Data/ArticleApiContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ArticleApi.Repository/BaseRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ArticleApi.Repository/IRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ArticleApi.UnitOfWork/IUnitOfWork.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ArticleApi.UnitOfWork/ArticleApiUow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ArticleApi.Entity/ArticleEntity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ArticleApi.Repository/ArticleApiRepository.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -80,6 +62,13 @@
         <option value="$PROJECT_DIR$/ArticleApi.DataAccess/Class1.cs" />
         <option value="$PROJECT_DIR$/ArticleApi.Dto/Class1.cs" />
         <option value="$PROJECT_DIR$/ArticleApi.Ioc/Class1.cs" />
+        <option value="$PROJECT_DIR$/ArticleApi.Entity/ArticleEntity.cs" />
+        <option value="$PROJECT_DIR$/ArticleApi.Data/ArticleApiContext.cs" />
+        <option value="$PROJECT_DIR$/ArticleApi.Repository/IRepository.cs" />
+        <option value="$PROJECT_DIR$/ArticleApi.Repository/BaseRepository.cs" />
+        <option value="$PROJECT_DIR$/ArticleApi.Repository/ArticleApiRepository.cs" />
+        <option value="$PROJECT_DIR$/ArticleApi.UnitOfWork/IUnitOfWork.cs" />
+        <option value="$PROJECT_DIR$/ArticleApi.UnitOfWork/ArticleApiUow.cs" />
       </list>
     </option>
   </component>
@@ -148,7 +137,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603995610917</updated>
-      <workItem from="1603995624453" duration="1730000" />
+      <workItem from="1603995624453" duration="4937000" />
     </task>
     <servers />
   </component>
