@@ -29,6 +29,7 @@ namespace ArticleApi.DataAccess.Concrete
                     Id = item.Id,
                     Title = item.Title,
                     Detail = item.Detail,
+                    Permalink = item.Permalink,
                     File1 = item.File1,
                     File2 = item.File2,
                     CreateDate = item.CreateDate,
@@ -48,6 +49,7 @@ namespace ArticleApi.DataAccess.Concrete
                 Id = dbResult.Id,
                 Title = dbResult.Title,
                 Detail = dbResult.Detail,
+                Permalink = dbResult.Permalink,
                 File1 = dbResult.File1,
                 File2 = dbResult.File2,
                 CreateDate = dbResult.CreateDate,
@@ -65,6 +67,7 @@ namespace ArticleApi.DataAccess.Concrete
                 Id = model.Id,
                 Title = model.Title,
                 Detail = model.Detail,
+                Permalink = model.Permalink,
                 File1 = model.File1,
                 File2 = model.File2,
                 CreateDate = model.CreateDate,
@@ -85,6 +88,7 @@ namespace ArticleApi.DataAccess.Concrete
             {
                 dbResult.Title = model.Title;
                 dbResult.Detail = model.Detail;
+                dbResult.Permalink = model.Permalink;
                 dbResult.File1 = model.File1;
                 dbResult.File2 = model.File2;
                 dbResult.CreateDate = model.CreateDate;
@@ -103,6 +107,7 @@ namespace ArticleApi.DataAccess.Concrete
             var isOk = false;
             _uow.ArticleApiRepository.Remove(id);
             _uow.Save();
+            isOk = true;
             return isOk;
         }
     }

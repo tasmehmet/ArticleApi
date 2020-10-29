@@ -13,9 +13,10 @@ namespace ArticleApi.Data
         }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
+
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("DefaultConnection"); ;
+                optionsBuilder.UseSqlServer(@"Data Source=(LocalDB)\MSSQLLocalDB;Initial Catalog=MakaleApiDb;Persist Security Info=True;Connect Timeout=300;"); ;
                 optionsBuilder.EnableSensitiveDataLogging(true);
             }
         }
