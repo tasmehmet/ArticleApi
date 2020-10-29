@@ -25,10 +25,14 @@
         <e p="WeatherForecast.cs" t="Include" />
       </e>
       <e p="ArticleApi.Business" t="IncludeRecursive">
-        <e p="Abstract" t="Include" />
+        <e p="Abstract" t="Include">
+          <e p="IArticleService.cs" t="Include" />
+        </e>
         <e p="ArticleApi.Business.csproj" t="IncludeRecursive" />
         <e p="bin" t="ExcludeRecursive" />
-        <e p="Concrete" t="Include" />
+        <e p="Concrete" t="Include">
+          <e p="ArticleManager.cs" t="Include" />
+        </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">
@@ -61,10 +65,14 @@
         </e>
       </e>
       <e p="ArticleApi.DataAccess" t="IncludeRecursive">
-        <e p="Abstract" t="Include" />
+        <e p="Abstract" t="Include">
+          <e p="IArticleDal.cs" t="Include" />
+        </e>
         <e p="ArticleApi.DataAccess.csproj" t="IncludeRecursive" />
         <e p="bin" t="ExcludeRecursive" />
-        <e p="Concrete" t="Include" />
+        <e p="Concrete" t="Include">
+          <e p="ArticleDal.cs" t="Include" />
+        </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">
@@ -76,7 +84,9 @@
       <e p="ArticleApi.Dto" t="IncludeRecursive">
         <e p="ArticleApi.Dto.csproj" t="IncludeRecursive" />
         <e p="bin" t="ExcludeRecursive" />
-        <e p="EntityDto" t="Include" />
+        <e p="EntityDto" t="Include">
+          <e p="ArticleDto.cs" t="Include" />
+        </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">
@@ -100,6 +110,8 @@
       <e p="ArticleApi.Ioc" t="IncludeRecursive">
         <e p="ArticleApi.Ioc.csproj" t="IncludeRecursive" />
         <e p="bin" t="ExcludeRecursive" />
+        <e p="BusinessModule.cs" t="Include" />
+        <e p="DataAccessModule.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">

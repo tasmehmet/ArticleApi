@@ -5,5 +5,14 @@
         <RootNamespace>ArticleApi</RootNamespace>
     </PropertyGroup>
 
+    <ItemGroup>
+      <PackageReference Include="Autofac" Version="6.0.0" />
+      <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="7.1.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\ArticleApi.Ioc\ArticleApi.Ioc.csproj" />
+    </ItemGroup>
+
 
 </Project>
