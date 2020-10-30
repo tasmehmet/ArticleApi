@@ -40,17 +40,6 @@
           </e>
         </e>
       </e>
-      <e p="ArticleApi.Comman" t="IncludeRecursive">
-        <e p="ArticleApi.Comman.csproj" t="IncludeRecursive" />
-        <e p="bin" t="ExcludeRecursive" />
-        <e p="obj" t="ExcludeRecursive">
-          <e p="Debug" t="Include">
-            <e p="netcoreapp3.1" t="Include">
-              <e p="ArticleApi.Comman.AssemblyInfo.cs" t="Include" />
-            </e>
-          </e>
-        </e>
-      </e>
       <e p="ArticleApi.Data" t="IncludeRecursive">
         <e p="ArticleApi.Data.csproj" t="IncludeRecursive" />
         <e p="ArticleApiContext.cs" t="Include" />
@@ -134,6 +123,18 @@
         </e>
       </e>
       <e p="ArticleApi.sln" t="IncludeFlat" />
+      <e p="ArticleApi.Tests" t="IncludeRecursive">
+        <e p="ArticleApi.Tests.csproj" t="IncludeRecursive" />
+        <e p="ArticleTests.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="ArticleApi.Tests.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
       <e p="ArticleApi.UnitOfWork" t="IncludeRecursive">
         <e p="ArticleApi.UnitOfWork.csproj" t="IncludeRecursive" />
         <e p="ArticleApiUow.cs" t="Include" />
@@ -151,7 +152,16 @@
       <e p="Infrastructure" t="Include" />
       <e p="packages" t="ExcludeRecursive" />
       <e p="Presentation" t="Include" />
+      <e p="Test" t="Include" />
     </e>
+    <e p="C:\Users\mehmettas\.nuget\packages\microsoft.net.test.sdk\16.5.0\build\netcoreapp2.1" t="Include">
+      <e p="Microsoft.NET.Test.Sdk.Program.cs" t="Include" />
+    </e>
+    <e p="C:\Users\mehmettas\.nuget\packages\microsoft.testplatform.testhost\16.5.0\build\netcoreapp2.1\x64\testhost.dll" t="Include" />
+    <e p="C:\Users\mehmettas\.nuget\packages\microsoft.testplatform.testhost\16.5.0\build\netcoreapp2.1\x64\testhost.exe" t="Include" />
+    <e p="C:\Users\mehmettas\.nuget\packages\xunit.runner.visualstudio\2.4.0\build\netcoreapp1.0\xunit.runner.reporters.netcoreapp10.dll" t="Include" />
+    <e p="C:\Users\mehmettas\.nuget\packages\xunit.runner.visualstudio\2.4.0\build\netcoreapp1.0\xunit.runner.utility.netcoreapp10.dll" t="Include" />
+    <e p="C:\Users\mehmettas\.nuget\packages\xunit.runner.visualstudio\2.4.0\build\netcoreapp1.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
     <e p="C:\Users\mehmettas\AppData\Local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
     <e p="C:\Users\mehmettas\AppData\Local\JetBrains\Rider2020.1\resharper-host\Local\Transient\ReSharperHost\v201\SolutionCaches\_ArticleApi.-1269813036.00" t="ExcludeRecursive" />
   </component>

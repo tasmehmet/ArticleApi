@@ -1,15 +1,12 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using ArticleApi.Business.Abstract;
+using ArticleApi.Business.Concrete;
+using ArticleApi.DataAccess.Abstract;
+using ArticleApi.DataAccess.Concrete;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 
 namespace ArticleApi
 {
@@ -26,6 +23,12 @@ namespace ArticleApi
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+
+            //Start Added For UnitTest
+            services.AddScoped<IArticleService, ArticleManager>();
+            services.AddScoped<IArticleDal, ArticleDal>();
+            //End Added For UnitTest
+
             services.AddSwaggerGen(options =>
             {
                 options.SwaggerDoc("v2", new Microsoft.OpenApi.Models.OpenApiInfo

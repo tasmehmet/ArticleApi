@@ -1,11 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using ArticleApi.DataAccess.Abstract;
+﻿using ArticleApi.DataAccess.Abstract;
 using ArticleApi.Dto.EntityDto;
 using ArticleApi.Entity;
 using ArticleApi.UnitOfWork;
-using Microsoft.EntityFrameworkCore.Storage;
+using System.Collections.Generic;
 
 namespace ArticleApi.DataAccess.Concrete
 {

@@ -1,8 +1,7 @@
-﻿using System.Collections.Generic;
-using ArticleApi.Business.Abstract;
+﻿using ArticleApi.Business.Abstract;
 using ArticleApi.Dto.EntityDto;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore.Internal;
+using System.Collections.Generic;
 
 namespace ArticleApi.Controllers
 {
@@ -16,6 +15,7 @@ namespace ArticleApi.Controllers
         {
             _articleService = articleService;
         }
+
         [HttpGet("GetAllArticle")]
         public IEnumerable<ArticleDto> GetAllArticles()
         {
